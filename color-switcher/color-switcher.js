@@ -63,6 +63,7 @@ previousButtonColor.addEventListener('click', previousColor);
 
 // ----Button RESET -----
 const resetColorBackground = () => {
+  index = 0;
   sectionContainer.style.backgroundColor = colors[0];
   switchTexthex.textContent = colors[0];
   switchColorHex.style.backgroundColor = colors[0];
